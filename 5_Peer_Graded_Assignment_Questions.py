@@ -117,18 +117,18 @@ app.layout = html.Div(children=[
                                 
                                 # Add Computed graphs
                                 # REVIEW3: Observe how we add an empty division and providing an id that will be updated during callback
-                                html.Div([ ], id='plot1'),
+                                html.Div(dcc.Graph(id='plot1')),
     
                                 html.Div([
-                                        html.Div([ ], id='plot2'),
-                                        html.Div([ ], id='plot3')
+                                        html.Div(dcc.Graph(id='plot2')),
+                                        html.Div(dcc.Graph(id='plot3'))
                                 ], style={'display': 'flex'}),
                                 
                                 # TASK3: Add a division with two empty divisions inside. See above disvision for example.
                                 # Enter your code below. Make sure you have correct formatting.
                                 html.Div([
-                                        html.Div([ ], id='plot4'),
-                                        html.Div([ ], id='plot5')
+                                        html.Div(dcc.Graph(id='plot4')),
+                                        html.Div(dcc.Graph(id='plot5'))
                                 ], style={'display': 'flex'}),
                                 ])
 
