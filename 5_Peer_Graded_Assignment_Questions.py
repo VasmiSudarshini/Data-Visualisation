@@ -76,7 +76,7 @@ app.layout = html.Div(children=[
                                 # Enter your code below. Make sure you have correct formatting.
                                 html.H1(
                                     children = 'US Domestic Airline Flights Performance',
-                                    style = {'textAlign':'center', 'color': '#503D36', 'font-size':0}
+                                    style = {'textAlign':'center', 'color': '#503D36', 'font-size':24}
                                 ),
                                 # REVIEW2: Dropdown creation
                                 # Create an outer division 
